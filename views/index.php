@@ -21,8 +21,7 @@
 			<th>Price</th>
 		</tr>
 
-    <?php //var_dump($customer_order->getSortedItems());die('hhhh');?>
-		<?php foreach ($customer_order->getSortedItems() as $item): ?>
+		<?php foreach ($order->getSortedItems() as $item): ?>
 			<tr>
 				<td><?php echo $item->getType() ?></td>
 				<td><?php echo $item->getPrice() ?></td>

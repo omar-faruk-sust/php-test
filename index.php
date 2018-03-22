@@ -60,7 +60,7 @@ $tv2->addExtras([
 $microvave = new Microwave();
 $microvave->setPrice(922.17)->setType('microwave');
 
-$customer_order = new ElectronicItems([
+$order = new ElectronicItems([
     $console,
     $cc_1,
     $cc_2,
