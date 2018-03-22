@@ -9,7 +9,7 @@ use OmarPackage\Microwave;
 use OmarPackage\Television;
 
 $console = new Console();
-$console->setPrice(133.98)->setType('console');
+$console->setPrice(1033.98)->setType('console');
 
 $cc_1 = new Controller();
 $cc_1->setPrice(5.67)->setType('controller')->setWired(true);
@@ -73,5 +73,15 @@ $customer_order = new ElectronicItems([
     $tv2_c1,
     $microvave
 ]);
+
+//only console and Controller
+$console_and_controller = new ElectronicItems([
+    $console,
+    $cc_1,
+    $cc_2,
+    $cc_3,
+    $cc_4
+]);
+
 //load the view
 require_once('views/index.php');

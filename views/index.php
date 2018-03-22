@@ -35,7 +35,7 @@
 		</tr>
 	</table>
 
-	<h2>Console Price with Controller</h2>
+	<h2>Console and controller price together:  <?php echo $console_and_controller->getTotalPrice(); ?> </h2>
 
 
 </body>
