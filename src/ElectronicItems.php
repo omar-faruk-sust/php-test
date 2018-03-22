@@ -18,8 +18,6 @@ class ElectronicItems
     public function getSortedItems()
     {
         $sorted = array();
-        // var_dump($this->items);
-        // die('here');
         foreach ($this->items as $item) {
             $sorted[($item->price * 100)] = $item;
         }

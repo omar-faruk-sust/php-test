@@ -30,7 +30,7 @@
 
 		<tr style="font-weight: bold;">
 			<td>Total</td>
-			<td><?php echo $customer_order->getTotalPrice() ?></td>
+			<td><?php echo $order->getTotalPrice() ?></td>
 		</tr>
 	</table>
 

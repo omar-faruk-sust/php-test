@@ -1,8 +1,6 @@
 <?php
 namespace OmarPackage;
 
-//require 'helper/functions.php';
-
 class ElectronicItem
 {
 
